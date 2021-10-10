@@ -8,7 +8,7 @@ set :repo_url, 'https://github.com/7sprinkle/AWS_exam'
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/achive'
+set :deploy_to, '/var/www/AWS'
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
